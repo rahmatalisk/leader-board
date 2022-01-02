@@ -148,3 +148,20 @@ hr{
     padding: 5px 10px;
     color: #ED6B4F;
 }
+
+
+/* --------------------------------------
+-----------------media quary------------ 
+----------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    .container,.head{
+        width: 100%;
+    }
+    .players,.blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .courses{
+        flex-direction: column;
+    }
+}
